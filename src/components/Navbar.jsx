@@ -19,7 +19,14 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
         <div className="inner">
             <a href="#hero" className="logo">
-                Bolaji Hammed 
+                <img
+                      src='/images/profile.png' // profile logo path
+                      alt="logo"
+                      className="w-30 inline-block rounded-full"
+                    />
+
+                <span className='px-5'>Bolaji Hammed </span>
+                
             </a>
 
             <nav className="desktop">
