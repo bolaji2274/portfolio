@@ -246,20 +246,29 @@ const testimonials = [
 
 const socialImgs = [
   {
+    name: "Linkedin",
+    url: "https://www.linkedin.com",
+    imgPath: "/images/linkedin.png",
+  },
+  {
+    name: "Github",
+    url: "https://www.github.com",
+    imgPath: "/images/linkedin.png",
+  },
+  {
     name: "insta",
+    url: "https://www.instagram.com",
     imgPath: "/images/insta.png",
   },
   {
     name: "fb",
+    url: "https://www.facebook.com",
     imgPath: "/images/fb.png",
   },
   {
     name: "x",
+    url: "https://www.x.com",
     imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
   },
 ];
 
