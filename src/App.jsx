@@ -1,29 +1,27 @@
-import LogoSection from "./sections/LogoSection"
-import Navbar from "./components/Navbar"
-import FeatureCards from "./sections/FeatureCards"
-import Hero from "./sections/Hero"
-import ShowCaseSection from "./sections/ShowCaseSection"
-import ExperienceSection from "./sections/ExperienceSection"
-import TechStack from "./sections/TechStack"
-import Testimonials from "./sections/Testimonials"
-import Contact from "./sections/Contact"
-import Footer from "./sections/Footer"
+import Testimonials from "./sections/Testimonials";
+import Footer from "./sections/Footer";
+import Contact from "./sections/Contact";
+import TechStack from "./sections/TechStack";
+import Experience from "./sections/Experience";
+import Hero from "./sections/Hero";
+import ShowcaseSection from "./sections/ShowcaseSection";
+import LogoShowcase from "./sections/LogoShowcase";
+import FeatureCards from "./sections/FeatureCards";
+import Navbar from "./components/Navbar";
 
-const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <ShowCaseSection />
-      <LogoSection />
-      <FeatureCards />
-      <ExperienceSection />
-      <TechStack />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </>
-  )
-}
+const App = () => (
+  <>
+  <Navbar />
+    <Hero />
+    <ShowcaseSection />
+    <LogoShowcase />
+    <FeatureCards />
+    <Experience />
+    <TechStack />
+    <Testimonials />
+    <Contact />
+    <Footer />
+  </>
+);
 
-export default App
+export default App;
